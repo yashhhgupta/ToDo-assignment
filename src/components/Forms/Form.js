@@ -118,7 +118,7 @@ const Form =(props)=>{
         <div style={{ display: "flex", justifyContent: "flex-end" }}>
 
           <button className={styles.btn} onClick={submitHandler} disabled={title?false:true}>
-            Add Task
+            {props.item ? "Update Task" : "Add Task"}
           </button>
         </div>
       </div>
