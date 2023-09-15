@@ -1,0 +1,11 @@
+.MainCard {
+    width: 100%;
+    background-color: #E2E4E6;
+    margin : 10px;
+    border-radius: 6px;
+    height: fit-content;
+    padding: 10px 0px;
+}
+.content{
+    padding: 5px;
+}

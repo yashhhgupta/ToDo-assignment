@@ -1,0 +1,25 @@
+.Card {
+    background-color: white;
+    /* shadow */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin :10px;
+    border-radius: 6px;
+    position :relative;
+    /* padding: 10px; */
+}
+.image {
+    height: 200px;
+    width: 100%;
+}
+.content {
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    margin-top: 3px;
+    /* padding: 0px 5px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
